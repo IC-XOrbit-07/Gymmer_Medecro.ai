@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: apple_ui_normal;
+    src: url("../Fonts/SF-Pro.ttf");
+}
+
+div a{
+    all: unset;
+    cursor: pointer;
+}
+
+.header_styling{
+    font-family: apple_ui_normal;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.option_div_styling_0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: apple_ui_normal;
+    height: 22px;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f2f2f5;
+    border-radius: 5px;
+}
+
+.option_div_styling_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: apple_ui_normal;
+    height: 22px;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f2f2f5;
+    border-radius: 5px;
+}
+
+.option_div_styling_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: apple_ui_normal;
+    height: 22px;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f2f2f5;
+    border-radius: 5px;
+}
+
+.option_div_styling_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: apple_ui_normal;
+    height: 22px;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f2f2f5;
+    border-radius: 5px;
+}
+
+#level_chooser{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+}

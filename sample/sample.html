@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop File Upload</title>
+    <style>
+        .drop-area {
+            width: 300px;
+            height: 200px;
+            border: 2px dashed #ccc;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #aaa;
+            margin: 20px auto;
+        }
+        .drop-area.dragover {
+            border-color: #333;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="drop-area" class="drop-area">
+        Click here to select or drop your genetic analysis report here in csv format
+    </div>
+    <input type="file" id="file-input" multiple style="display: none;" />
+
+    <script src="./logic.js"></script>
+</body>
+</html>
