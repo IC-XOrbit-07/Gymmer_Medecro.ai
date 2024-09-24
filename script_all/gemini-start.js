@@ -153,29 +153,29 @@ async function run_query() {
 
         // Replace with your actual API URL and chat ID
         // const chatId = 1; // This should be dynamically determined
-        const apiUrl = `http://localhost:5500/api/update-chat`;
+        // const apiUrl = `http://localhost:5500/api/update-chat`;
 
-        try {
-            const response = await fetch(apiUrl, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ newValue: userInput }),
-            });
+        // try {
+        //     const response = await fetch(apiUrl, {
+        //         method: 'PUT',
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         },
+        //         body: JSON.stringify({ newValue: userInput }),
+        //     });
 
-            if (response.ok) {
-                const result = await response.json();
-                // alert('Chat updated successfully');
-                inputElement.value = ''; // Clear input field after success
-            } else {
-                const error = await response.json();
-                alert(`Error: ${error.message || 'Failed to update chat'}`);
-            }
-        } catch (error) {
-            console.error('Error updating chat:', error);
-            alert('An error occurred while updating the chat.');
-        }
+        //     if (response.ok) {
+        //         const result = await response.json();
+        //         // alert('Chat updated successfully');
+        //         inputElement.value = ''; // Clear input field after success
+        //     } else {
+        //         const error = await response.json();
+        //         alert(`Error: ${error.message || 'Failed to update chat'}`);
+        //     }
+        // } catch (error) {
+        //     console.error('Error updating chat:', error);
+        //     alert('An error occurred while updating the chat.');
+        // }
 
 
     } catch (error) {
